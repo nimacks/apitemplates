@@ -54,6 +54,8 @@ components:
         - code
         - message
       properties:
+        Id:
+          type: integer
         code:
           type: string
         message:
