@@ -1,6 +1,9 @@
-## Open Api Specification Skeletons 
+# Open Api Specification 
 
-### info Object Skeleton
+## Info Object
+
+The info object contains basic information about your API, including the title, a description, version, link to the license, link to the terms of service, and contact information. Many of the properties are optional.
+
 
 ```YAML
 info:
