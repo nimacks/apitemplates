@@ -6,44 +6,6 @@
 The schema refers to the data structure ( the fields, values, and hierarchy of the various objects and properties of a JSON or YAML object.
 
 
-
-
-```YAML
-
-openapi:
-info:
-servers:
-paths:
-
-components:
-  schemas:
-    NameOfObject:
-        type: object
-        required:
-        - "property1"
-        - "property2"
-        properties:
-            property1:
-                type: "string"
-                format: 
-                description:
-                example:
-            property2:
-                type: "array"
-                items: 
-                    type:
-            property3:
-                type: "int32"
-                format:
-                description:
-                example:
-security:
-tags:
-externalDocs:
-```
-
-### Example
-
 ```YAML
 components:
   schemas:

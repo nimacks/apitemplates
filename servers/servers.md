@@ -14,17 +14,17 @@ servers:
     description: Production server
   - url: https://beta.example.com
     description: Beta server
-  - url: https://some-other.example.com
+  - url: https://{subdomain}.example.com/{basepath}/{version}
     description: Some other server
     variables:
-        username:
-            default: demo
+        subdomain:
+            default: production
             description: description
-        port:
+        version:
             enum:
-                - '8443'
-                - '443'
-            default: '8443'
+                - 'v1'
+                - 'v2'
+            default: 'v1'
         basePath:
-            default: v2
+            default: api
 ```
