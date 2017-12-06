@@ -10,7 +10,7 @@ The following fields nodes are required
 - info
 - paths
 
-```YAML
+```yaml
 
 openapi:
 
