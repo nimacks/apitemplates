@@ -9,10 +9,6 @@ In the servers object you specify the basepath of your target server.
 
 
 ```YAML
-openapi: "3.0.0"
-
-info:
-
 servers:
   - url: https://example.com
     description: Production server
@@ -31,14 +27,4 @@ servers:
             default: '8443'
         basePath:
             default: v2
-
-paths:
-
-components:
-
-security:
-
-tags:
-
-externalDocs:
-``
+```
