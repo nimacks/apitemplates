@@ -5,7 +5,7 @@
 The info object contains basic information about your API, including the title, a description, version, link to the license, link to the terms of service, and contact information. Many of the properties are optional.
 
 
-```YAML
+```json
 info:
   title: 
   description: 
