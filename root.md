@@ -12,27 +12,6 @@ The following fields nodes are required
 
 ```yaml
 
-openapi:
-
-info:
-
-servers:
-
-paths:
-
-components:
-
-security:
-
-tags:
-
-externalDocs:
-
-```
-
-> #### Example
-
-```YAML
 openapi: "3.0.0"
 
 info:
@@ -48,4 +27,5 @@ security:
 tags:
 
 externalDocs:
+
 ```
