@@ -1,6 +1,6 @@
 # OpenApi Specification  
 
-### Root Object Fields
+### Root 
 
 This is the root document object of the OpenAPI document.
 
@@ -18,13 +18,13 @@ info:
 
 servers:
 
+tags:
+
 paths:
 
 components:
 
 security:
-
-tags:
 
 externalDocs:
 

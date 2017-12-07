@@ -1,12 +1,12 @@
 # Open Api Specification 
 
-## Schemas Object
+## Schemas 
 
 
 The schema refers to the data structure ( the fields, values, and hierarchy of the various objects and properties of a JSON or YAML object.
 
 
-```YAML
+```javascript
 components:
   schemas:
     Error:

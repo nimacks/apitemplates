@@ -7,18 +7,19 @@ Holds a set of reusable objects for different aspects of the OAS. All objects de
 <!-- TOC -->
 
 - [Open Api Specification](#open-api-specification)
-    - [Components](#components-object)
-      - [schemas](#components-object)
-      - [responses](#components-object)
-      - [parameters](#components-object)
-      - [requestBody](#components-object)
-      - [headers](#components-object)
-      - [securitySchemes](#components-object)
-      - [links](#components-object)
-      - [callbacks](#components-object)
-
+    - [Components](#components)
 
 <!-- /TOC -->
+
+```Yaml
+    responses
+        'Name'
+            description (string)
+            headers (object)
+            content (object)
+            links (object)
+```
+
 
 ```YAML
 
