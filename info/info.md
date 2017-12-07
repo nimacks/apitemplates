@@ -6,7 +6,7 @@ The info object contains basic information about your API, including the title, 
 
 
 
-```YAML
+```javascript
 info:
   title: API title
   description: "Api Description"

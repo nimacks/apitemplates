@@ -10,7 +10,7 @@ The following fields nodes are required
 - info
 - paths
 
-```yaml
+```json
 
 openapi: "3.0.0"
 
