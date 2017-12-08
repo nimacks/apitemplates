@@ -1,4 +1,4 @@
-# Open Api Specification 
+# Open Api Templates 
 
 - [Api Templates](https://samuelmensah.github.io/apitemplates/)
     - [root](https://samuelmensah.github.io/apitemplates/root)
@@ -34,7 +34,7 @@ Holds a set of reusable objects for different aspects of the OAS. All objects de
 ```
 
 
-```YAML
+```javascript
 
 openapi:
 info:
