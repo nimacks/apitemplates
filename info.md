@@ -18,6 +18,19 @@
 
 The info object contains basic information about your API, including the title, a description, version, link to the license, link to the terms of service, and contact information. Many of the properties are optional.
 
+#### Fields
+
+- `type*` : string
+- `description` : string
+- `termsOfService` : `data type formats`
+- `contact` : contact information for api
+  -  `name`
+  -  `url`
+  -  email
+- `license` : license information for exposed API
+  - `name`
+  - `url`
+- `version*`  
 
 
 ```javascript
