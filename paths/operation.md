@@ -65,6 +65,8 @@ paths:
                 type: string
                 description: AQI response
                 example: 52
+        400:
+          $ref: '#/components/responses/404'
 
 
 ```
