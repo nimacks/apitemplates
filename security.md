@@ -1,4 +1,4 @@
-# Open Api Specification 
+# OpenApi Templates
 
 ##### _Table of Contents_
  - [Api Templates](https://samuelmensah.github.io/apitemplates/)
@@ -10,7 +10,7 @@
     - [components](https://samuelmensah.github.io/apitemplates/components/components)
     - [security](https://samuelmensah.github.io/apitemplates/security)
     - [externalDocs](https://samuelmensah.github.io/apitemplates/externaldocs)
-    
+
 ## Security 
 
 ### `Scheme`

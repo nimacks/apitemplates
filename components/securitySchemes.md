@@ -1,7 +1,5 @@
-# Open Api Templates 
+# OpenApi Templates
 
-
-# Open Api Templates 
 
 - [Api Templates](https://samuelmensah.github.io/apitemplates/)
     - [root](https://samuelmensah.github.io/apitemplates/root)

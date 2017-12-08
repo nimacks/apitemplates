@@ -1,4 +1,4 @@
-## 0.1. Welcome to OpenApi Templates
+##  Welcome to OpenApi Templates
 
 OpenApi-Templates is a reference document with templates designed to help you create openapi specification documents
 ##### _Table of Contents_

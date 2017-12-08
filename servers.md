@@ -1,4 +1,4 @@
-# Open Api Specification 
+# OpenApi Templates 
 
 ##### _Table of Contents_
 - [Api Templates](https://samuelmensah.github.io/apitemplates/)

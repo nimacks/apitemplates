@@ -1,4 +1,4 @@
-# Open Api Specification 
+# OpenApi Templates 
 
 ## Path Item
 

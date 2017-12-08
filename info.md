@@ -1,4 +1,4 @@
-# Open Api Specification 
+# OpenApi Templates
 
 
 ##### _Table of Contents_

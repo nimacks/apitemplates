@@ -1,7 +1,7 @@
-# Open Api Specification 
+# OpenApi Templates
 
 ##### _Table of Contents_
->- [Api Templates](https://samuelmensah.github.io/apitemplates/)
+- [Api Templates](https://samuelmensah.github.io/apitemplates/)
     - [root](https://samuelmensah.github.io/apitemplates/root)
     - [info](https://samuelmensah.github.io/apitemplates/info)
     - [servers](https://samuelmensah.github.io/apitemplates/servers)
