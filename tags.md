@@ -1,5 +1,16 @@
 # Open Api Specification 
 
+- [Api Templates](https://samuelmensah.github.io/apitemplates/)
+    - [root](https://samuelmensah.github.io/apitemplates/root)
+    - [info](https://samuelmensah.github.io/apitemplates/info)
+    - [servers](https://samuelmensah.github.io/apitemplates/servers)
+    - [tags](https://samuelmensah.github.io/apitemplates/tags)
+    - [paths](https://samuelmensah.github.io/apitemplates/paths/path)
+    - [components](https://samuelmensah.github.io/apitemplates/components)
+    - [security](https://samuelmensah.github.io/apitemplates/security)
+    - [externalDocs](https://samuelmensah.github.io/apitemplates/externaldocs)
+
+
 ## `Tags` 
 
 The `tags` object provides a way to group the paths (endpoints) in the Swagger UI display.
