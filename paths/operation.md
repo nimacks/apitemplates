@@ -1,5 +1,19 @@
 # Open Api Specification 
 
+
+
+##### _Table of Contents_
+ - [Api Templates](https://samuelmensah.github.io/apitemplates/)
+    - [root](https://samuelmensah.github.io/apitemplates/root)
+    - [info](https://samuelmensah.github.io/apitemplates/info)
+    - [servers](https://samuelmensah.github.io/apitemplates/servers)
+    - [tags](https://samuelmensah.github.io/apitemplates/tags)
+    - [paths](https://samuelmensah.github.io/apitemplates/paths/path)
+      - [operation](https://samuelmensah.github.io/apitemplates/paths/operation)
+    - [components](https://samuelmensah.github.io/apitemplates/components/components)
+    - [security](https://samuelmensah.github.io/apitemplates/security)
+    - [externalDocs](https://samuelmensah.github.io/apitemplates/externaldocs)
+    
 ## Operation Item
 
 Operations are the GET, POST,PUT and Delete methods
@@ -9,11 +23,11 @@ Operations are the GET, POST,PUT and Delete methods
 - `tags`: optional string summary
 - `summary`: optional string summary
 - `description`: optional string description
-- `externalDocs`: links to documentation for more information about path [`externalDocs object`](#)
+- `externalDocs`: links to documentation for more information about path [`externalDocs`](https://samuelmensah.github.io/apitemplates/components/externaldocs)
 - `operationId` : a unique identifier for path
-- `parameters` : parameters accepted by the path. Does not include request body parameters [`parameters object`](#)
-- `requestBody` : the request body parameter details for this path [`requestBody object`](#)
-- `responses` : responses provided from requests with this path [`responses object`](#)
+- `parameters` : parameters accepted by the path. Does not include request body parameter[`parameters`](https://samuelmensah.github.io/apitemplates/components/parameters)
+- `requestBody` : the request body parameter details for this path [`requestBody`](https://samuelmensah.github.io/apitemplates/components/requestBody)
+- `responses` : responses provided from requests with this path [`responses`](https://samuelmensah.github.io/apitemplates/components/responses)
 - `callbacks` : callbacks are operations performed after a function finishes executing
 - `deprecated` : whether the path is deprecated
 - `security` : security authorization method used with the operation
