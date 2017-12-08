@@ -1,17 +1,14 @@
 # OpenApi Specification  
-<!-- TOC -->
 
-- [OpenApi Specification](#openapi-specification)
-    - [root](#root)
-    - [info](#root)
-    - [servers](#root)
-    - [tags](#root)
-    - [paths](#root)
-    - [components](#root)
-    - [security](#root)
-    - [externalDocs](#root)
-
-<!-- /TOC -->
+ > - [Api Templates](https://samuelmensah.github.io/apitemplates/)
+    - [root](https://samuelmensah.github.io/apitemplates/root)
+    - [info](https://samuelmensah.github.io/apitemplates/info)
+    - [servers](https://samuelmensah.github.io/apitemplates/servers)
+    - [tags](https://samuelmensah.github.io/apitemplates/tags)
+    - [paths](https://samuelmensah.github.io/apitemplates/paths/path)
+    - [components](https://samuelmensah.github.io/apitemplates/components)
+    - [security](https://samuelmensah.github.io/apitemplates/security)
+    - [externalDocs](https://samuelmensah.github.io/apitemplates/externaldocs)
 ### Root 
 
 This is the root document object of the OpenAPI document.
@@ -22,7 +19,7 @@ The following fields nodes are required
 - info
 - paths
 
-```json
+```javascript
 
 openapi: "3.0.0"
 
