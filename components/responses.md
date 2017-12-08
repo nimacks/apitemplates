@@ -39,14 +39,31 @@ The Responses Object MUST contain at least one response code, and it SHOULD be t
 
 components:
   responses:
-    404:
-      description: Not found
+    201:
+      description: Created
       content:
         text/plain:
           schema:
             type: string
-            description: Not found
-            example: Not found
+            description: created
+            example: created
+
+    404:
+      description: Not Found
+      content:
+        text/plain:
+          schema:
+            type: string
+            description: Not Found
+            example: Not Found
+    500:
+      description: Internal Server Error
+      content:
+        text/plain:
+          schema:
+            type: string
+            description: An unexpected error occurred
+            example: Internal Server Error
     default:
         description: Unexpected error
         content:

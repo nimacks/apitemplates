@@ -42,6 +42,7 @@ The schema refers to the data structure ( the fields, values, and hierarchy of t
 components:
   schemas:
     Error:
+      title: Error
       type: object
       description: 'A generic response body to be returned from the server when an error is caught'
       required:
@@ -50,12 +51,18 @@ components:
       properties:
         Id:
           type: integer
+          description: Error identifier
+          format: int32
+          example: 23092
         code:
           type: string
+          description:
+          format:
+          example
         message:
           type: string
     IdResult:
-      description: 
+      description:
         A generic response body to be returned from the server with the id of record as part of a CRUD operation
       type: object
       properties:
