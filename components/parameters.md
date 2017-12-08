@@ -8,12 +8,17 @@ A unique parameter is defined by a combination of a name and location.
 
 #### Fields
 
-- name* : name of the parameter
-- in* : the location of the parameter [query,header,path,cookie]
-- description: a brief description of the parameter
-- required*: determines whether this parameter is mandatory
-- deprecated: specifies that a parameter is deprecated
-- allowEmptyValue: sets the ability to pass empty-valued paramters  
+- `name*` : name of the parameter
+- `in*` : the location of the parameter [query,header,path,cookie]
+- `description`: a brief description of the parameter
+- `required*`: determines whether this parameter is mandatory
+- `deprecated`: specifies that a parameter is deprecated
+- `allowEmptyValue`: sets the ability to pass empty-valued paramters  
+- `style` : how the parameters data is serialized
+-  `explode` : advanced parameter related to arrays
+-  `allowReserved`: whether reserved characters are allowed
+-  `schema` : The schema or model for the parameter
+-  `example` : an example of the media type
 
 
 ### Tags at the root Level
